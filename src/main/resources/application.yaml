@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-db-audit
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url:
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  security:
+    user:
+      name: john
+      password: s3cr3t
